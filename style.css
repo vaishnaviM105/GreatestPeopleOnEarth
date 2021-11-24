@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+body
+{
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header
+{
+    background-color: blueviolet;
+    padding: 5px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a:link,a:hover,a:visited
+{
+    color: white;
+    padding: 5px;
+    font-size: 20;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nav
+{
+    padding: 5px;
+    display: flex;
+}
+
+@media  screen and (max-width: 700px) 
+{
+    header
+    {
+        display: block;
+       
+    }
+    .main, .nav
+    {
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+.container a, .container a:visited, .container a:active, .container a:hover
+{
+    text-decoration: none;
+    font-size: 20;
+    color: black;
+}
+
+.page-body
+{
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.login-form
+{
+    background-color: rgb(218, 217, 217);
+    border-radius: 15px;
+    padding: 2%;
+    margin: 2%;
+    color: blueviolet;
+    justify-content: center;
+}
+
+.login-form input, .login-form select, .login-form textarea
+{
+    border: 1px solid white;
+    border-radius: 15px;
+    outline: none;
+    background-color: transparent;
+    width: 100%;
+    margin: 2%;
+    padding: 1%;
+}
+
+.login-form label
+{
+    color: black;
+    float: left;
+    margin-left: 5%;
+}
+
+.login-form input[type=submit]
+{
+    outline: none;
+    border: none;
+    color: white;
+    border-radius: 15px;
+    background-color: blueviolet;
+    width: 100%;
+    margin: 2%;
+    padding: 1%;
+}
+
+
+
